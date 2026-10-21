@@ -1,0 +1,34 @@
+# Corpus sources development rules
+
+Root `AGENTS.md` also applies.
+
+## Purpose
+
+`corpus-sources/` owns candidate/approved source declarations and rights/provenance records. It does not own passage extraction, embeddings, ranking, or mobile behavior.
+
+## Source invariants
+
+- `catalog/authors.yaml` / `catalog/works.yaml` are human-reviewed planning metadata; they do not by themselves approve or publish a source.
+- Newly generated author/work candidates stay commented by default; discovery refresh must preserve IDs of already uncommented works.
+- Production-enabled records register a concrete text version, not merely a title.
+- Disabled `candidate` records may point to a discovery/landing page while edition/revision review is pending.
+- Record language, text role, source identity, provenance, rights review, and category.
+- Treat original, human translation, and machine translation as separate text versions.
+- Never infer translation rights from the age of the original.
+- For sacred texts, distinguish textual/translation tradition when relevant.
+- Do not commit downloaded books/scans/generated translations/production corpora.
+- Do not set `enabled = true` until review status and all enabled text-version rights are approved and the source locator is pinned.
+
+## Networking
+
+Future downloaders must be explicit CLI operations. Reading/validating the registry must never trigger network access.
+
+## Validation
+
+```bash
+python tools/validate_registry.py
+```
+
+See [`IMPLEMENTATION.md`](IMPLEMENTATION.md) for current registry layout and root `docs/SOURCES.md` / `docs/TESTS.md` for policy and validation expectations.
+
+- Enabled source versions must pin both raw `artifact_sha256` and normalized `canonical_sha256`; local candidate preparation may use `--allow-unapproved` but its outputs are not publishable.

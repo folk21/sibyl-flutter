@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "stageId": "M1",
+  "specPath": "docs/specs/active/subspecs/flutter-native-e5.md",
+  "implementationPlanPath": "docs/specs/active/subspecs/flutter-native-e5-implementation-plan.md",
+  "requirementIds": ["R-E5-01", "R-E5-05"],
+  "featureIds": ["APP.RETRIEVAL"],
+  "owningPaths": ["app"],
+  "editablePaths": ["app/test/"],
+  "contextPaths": ["app/lib/runtime/", "corpus-format/manifest.schema.json"],
+  "riskLevel": "HIGH",
+  "delegation": "DISCOVERY_REQUIRED",
+  "task": "Read-only discovery proposal for native E5 parity; do not run a coding worker until decisions and independent approval are recorded.",
+  "completionCriteria": ["Developer reviews native dependency, rights and offline boundary before delegation."]
+}

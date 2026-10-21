@@ -1,0 +1,7 @@
+# Candidate literary work catalog.
+# Run `sibyl-corpus discover-works` after uncommenting authors in authors.yaml.
+# Newly discovered works are written as commented blocks. Uncomment a complete work block
+# to accept that work ID as stable input for the corpus-preparation workflow.
+schema_version: 1
+works:
+  # No work candidates have been generated in the repository seed yet.

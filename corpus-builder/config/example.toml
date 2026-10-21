@@ -1,0 +1,23 @@
+[corpus]
+format_version = 4
+language = "en"
+
+[passages]
+# Passage boundaries are paragraph-aware. These values are preferences and hard validation limits.
+min_words = 8
+preferred_words = 45
+max_words = 120
+overlap_paragraphs = 1
+
+[hints]
+# Deterministic local hints keep default tests model-free.
+provider = "deterministic"
+hints_per_passage = 2
+
+[embeddings]
+# "hash" is a deterministic development provider and is not intended for production semantic quality.
+provider = "hash"
+dimensions = 32
+normalize = true
+batch_size = 32
+cache = false

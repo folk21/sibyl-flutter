@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "mode": "SINGLE",
+  "selectedWorkstreamId": "flutter-ml-adapter",
+  "workstreams": [
+    {
+      "id": "flutter-ml-adapter",
+      "specPath": "docs/specs/active/subspecs/flutter-native-e5.md",
+      "stageId": "M1",
+      "phase": "DESIGN",
+      "runId": null,
+      "developerDecision": "UNRECORDED"
+    }
+  ]
+}

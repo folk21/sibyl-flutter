@@ -1,0 +1,1083 @@
+# Academic candidate author catalog for Sibyl corpus discovery.
+#
+# Basis: broad author coverage from philology/literary-history curricula, including
+# Moscow State University foreign-literature course sequences and Russian-literature
+# teaching/research materials, cross-checked against Saint Petersburg State University
+# philology course coverage and established world-literature survey canons.
+#
+# All candidates are disabled by comments. Uncomment a complete author block to request
+# work discovery. The catalog is human-reviewed configuration, not generated corpus state.
+# Source URLs are discovery candidates, not rights approval. Project Gutenberg author-search
+# URLs may yield translations or editions requiring later language/provenance review.
+schema_version: 1
+authors:
+
+  # --- Russian literature — eighteenth and nineteenth centuries ---
+
+  # - id: mikhail-lomonosov
+  #   name: Mikhail Lomonosov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mikhail+Lomonosov
+  #       original_language: ru
+
+  # - id: gavrila-derzhavin
+  #   name: Gavrila Derzhavin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Gavrila+Derzhavin
+  #       original_language: ru
+
+  # - id: denis-fonvizin
+  #   name: Denis Fonvizin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Denis+Fonvizin
+  #       original_language: ru
+
+  # - id: nikolay-karamzin
+  #   name: Nikolay Karamzin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nikolay+Karamzin
+  #       original_language: ru
+
+  # - id: vasily-zhukovsky
+  #   name: Vasily Zhukovsky
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Vasily+Zhukovsky
+  #       original_language: ru
+
+  # - id: alexander-griboyedov
+  #   name: Alexander Griboyedov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Griboyedov
+  #       original_language: ru
+
+  # - id: alexander-pushkin
+  #   name: Alexander Pushkin
+  #   sources:
+  #     - family: libru
+  #       url: https://az.lib.ru/p/pushkin_a_s/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Pushkin
+  #       original_language: ru
+
+  # - id: mikhail-lermontov
+  #   name: Mikhail Lermontov
+  #   sources:
+  #     - family: libru
+  #       url: https://az.lib.ru/l/lermontow_m_j/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mikhail+Lermontov
+  #       original_language: ru
+
+  # - id: nikolai-gogol
+  #   name: Nikolai Gogol
+  #   sources:
+  #     - family: libru
+  #       url: https://az.lib.ru/g/gogolx_n_w/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nikolai+Gogol
+  #       original_language: ru
+
+  # - id: alexander-herzen
+  #   name: Alexander Herzen
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Herzen
+  #       original_language: ru
+
+  # - id: ivan-goncharov
+  #   name: Ivan Goncharov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Ivan+Goncharov
+  #       original_language: ru
+
+  # - id: ivan-turgenev
+  #   name: Ivan Turgenev
+  #   sources:
+  #     - family: libru
+  #       url: https://az.lib.ru/t/turgenew_i_s/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Ivan+Turgenev
+  #       original_language: ru
+
+  # - id: alexander-ostrovsky
+  #   name: Alexander Ostrovsky
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Ostrovsky
+  #       original_language: ru
+
+  # - id: nikolay-nekrasov
+  #   name: Nikolay Nekrasov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nikolay+Nekrasov
+  #       original_language: ru
+
+  # - id: fyodor-tyutchev
+  #   name: Fyodor Tyutchev
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Fyodor+Tyutchev
+  #       original_language: ru
+
+  # - id: afanasy-fet
+  #   name: Afanasy Fet
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Afanasy+Fet
+  #       original_language: ru
+
+  # - id: nikolay-chernyshevsky
+  #   name: Nikolay Chernyshevsky
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nikolay+Chernyshevsky
+  #       original_language: ru
+
+  # - id: fyodor-dostoevsky
+  #   name: Fyodor Dostoevsky
+  #   sources:
+  #     - family: libru
+  #       url: http://az.lib.ru/d/dostoewskij_f_m/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Fyodor+Dostoevsky
+  #       original_language: ru
+
+  # - id: leo-tolstoy
+  #   name: Leo Tolstoy
+  #   sources:
+  #     - family: libru
+  #       url: https://az.lib.ru/t/tolstoj_lew_nikolaewich/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Leo+Tolstoy
+  #       original_language: ru
+
+  # - id: nikolai-leskov
+  #   name: Nikolai Leskov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nikolai+Leskov
+  #       original_language: ru
+
+  # - id: mikhail-saltykov-shchedrin
+  #   name: Mikhail Saltykov-Shchedrin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mikhail+Saltykov-Shchedrin
+  #       original_language: ru
+
+  # - id: vladimir-korolenko
+  #   name: Vladimir Korolenko
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Vladimir+Korolenko
+  #       original_language: ru
+
+  # - id: anton-chekhov
+  #   name: Anton Chekhov
+  #   sources:
+  #     - family: libru
+  #       url: https://az.lib.ru/c/chehow_a_p/
+  #       language: ru
+  #       original_language: ru
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Anton+Chekhov
+  #       original_language: ru
+
+
+  # --- Russian literature — twentieth century ---
+
+  # - id: ivan-bunin
+  #   name: Ivan Bunin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Ivan+Bunin
+  #       original_language: ru
+
+  # - id: maxim-gorky
+  #   name: Maxim Gorky
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Maxim+Gorky
+  #       original_language: ru
+
+  # - id: alexander-blok
+  #   name: Alexander Blok
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Blok
+  #       original_language: ru
+
+  # - id: andrei-bely
+  #   name: Andrei Bely
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Andrei+Bely
+  #       original_language: ru
+
+  # - id: valery-bryusov
+  #   name: Valery Bryusov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Valery+Bryusov
+  #       original_language: ru
+
+  # - id: nikolay-gumilev
+  #   name: Nikolay Gumilev
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nikolay+Gumilev
+  #       original_language: ru
+
+  # - id: anna-akhmatova
+  #   name: Anna Akhmatova
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Anna+Akhmatova
+  #       original_language: ru
+
+  # - id: marina-tsvetaeva
+  #   name: Marina Tsvetaeva
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Marina+Tsvetaeva
+  #       original_language: ru
+
+  # - id: vladimir-mayakovsky
+  #   name: Vladimir Mayakovsky
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Vladimir+Mayakovsky
+  #       original_language: ru
+
+  # - id: sergei-yesenin
+  #   name: Sergei Yesenin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Sergei+Yesenin
+  #       original_language: ru
+
+  # - id: osip-mandelstam
+  #   name: Osip Mandelstam
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Osip+Mandelstam
+  #       original_language: ru
+
+  # - id: boris-pasternak
+  #   name: Boris Pasternak
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Boris+Pasternak
+  #       original_language: ru
+
+  # - id: mikhail-bulgakov
+  #   name: Mikhail Bulgakov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mikhail+Bulgakov
+  #       original_language: ru
+
+  # - id: andrei-platonov
+  #   name: Andrei Platonov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Andrei+Platonov
+  #       original_language: ru
+
+  # - id: isaac-babel
+  #   name: Isaac Babel
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Isaac+Babel
+  #       original_language: ru
+
+  # - id: mikhail-zoshchenko
+  #   name: Mikhail Zoshchenko
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mikhail+Zoshchenko
+  #       original_language: ru
+
+  # - id: vladimir-nabokov
+  #   name: Vladimir Nabokov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Vladimir+Nabokov
+  #       original_language: ru
+
+  # - id: mikhail-sholokhov
+  #   name: Mikhail Sholokhov
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mikhail+Sholokhov
+  #       original_language: ru
+
+  # - id: alexander-tvardovsky
+  #   name: Alexander Tvardovsky
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Tvardovsky
+  #       original_language: ru
+
+  # - id: alexander-solzhenitsyn
+  #   name: Alexander Solzhenitsyn
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Alexander+Solzhenitsyn
+  #       original_language: ru
+
+  # - id: vasily-shukshin
+  #   name: Vasily Shukshin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Vasily+Shukshin
+  #       original_language: ru
+
+  # - id: viktor-astafyev
+  #   name: Viktor Astafyev
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Viktor+Astafyev
+  #       original_language: ru
+
+  # - id: valentin-rasputin
+  #   name: Valentin Rasputin
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Valentin+Rasputin
+  #       original_language: ru
+
+
+  # --- Antiquity, Middle Ages, and Renaissance ---
+
+  # - id: homer
+  #   name: Homer
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Homer
+  #       original_language: grc
+
+  # - id: aeschylus
+  #   name: Aeschylus
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Aeschylus
+  #       original_language: grc
+
+  # - id: sophocles
+  #   name: Sophocles
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Sophocles
+  #       original_language: grc
+
+  # - id: euripides
+  #   name: Euripides
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Euripides
+  #       original_language: grc
+
+  # - id: aristophanes
+  #   name: Aristophanes
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Aristophanes
+  #       original_language: grc
+
+  # - id: virgil
+  #   name: Virgil
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Virgil
+  #       original_language: la
+
+  # - id: ovid
+  #   name: Ovid
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Ovid
+  #       original_language: la
+
+  # - id: dante-alighieri
+  #   name: Dante Alighieri
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Dante+Alighieri
+  #       original_language: it
+
+  # - id: giovanni-boccaccio
+  #   name: Giovanni Boccaccio
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Giovanni+Boccaccio
+  #       original_language: it
+
+  # - id: geoffrey-chaucer
+  #   name: Geoffrey Chaucer
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Geoffrey+Chaucer
+  #       language: en
+  #       original_language: en
+
+  # - id: francois-rabelais
+  #   name: Francois Rabelais
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Francois+Rabelais
+  #       original_language: fr
+
+  # - id: miguel-de-cervantes
+  #   name: Miguel de Cervantes
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Miguel+de+Cervantes
+  #       original_language: es
+
+  # - id: william-shakespeare
+  #   name: William Shakespeare
+  #   sources:
+  #     - family: libru
+  #       url: https://lib.ru/SHAKESPEARE/ENGL/
+  #       language: en
+  #       original_language: en
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=William+Shakespeare
+  #       language: en
+  #       original_language: en
+
+  # - id: christopher-marlowe
+  #   name: Christopher Marlowe
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Christopher+Marlowe
+  #       language: en
+  #       original_language: en
+
+  # - id: michel-de-montaigne
+  #   name: Michel de Montaigne
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Michel+de+Montaigne
+  #       original_language: fr
+
+
+  # --- Seventeenth and eighteenth centuries ---
+
+  # - id: pierre-corneille
+  #   name: Pierre Corneille
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Pierre+Corneille
+  #       original_language: fr
+
+  # - id: jean-racine
+  #   name: Jean Racine
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jean+Racine
+  #       original_language: fr
+
+  # - id: moliere
+  #   name: Moliere
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Moliere
+  #       original_language: fr
+
+  # - id: john-milton
+  #   name: John Milton
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=John+Milton
+  #       language: en
+  #       original_language: en
+
+  # - id: daniel-defoe
+  #   name: Daniel Defoe
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Daniel+Defoe
+  #       language: en
+  #       original_language: en
+
+  # - id: jonathan-swift
+  #   name: Jonathan Swift
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jonathan+Swift
+  #       language: en
+  #       original_language: en
+
+  # - id: samuel-richardson
+  #   name: Samuel Richardson
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Samuel+Richardson
+  #       language: en
+  #       original_language: en
+
+  # - id: henry-fielding
+  #   name: Henry Fielding
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Henry+Fielding
+  #       language: en
+  #       original_language: en
+
+  # - id: laurence-sterne
+  #   name: Laurence Sterne
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Laurence+Sterne
+  #       language: en
+  #       original_language: en
+
+  # - id: voltaire
+  #   name: Voltaire
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Voltaire
+  #       original_language: fr
+
+  # - id: denis-diderot
+  #   name: Denis Diderot
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Denis+Diderot
+  #       original_language: fr
+
+  # - id: jean-jacques-rousseau
+  #   name: Jean-Jacques Rousseau
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jean-Jacques+Rousseau
+  #       original_language: fr
+
+  # - id: gotthold-ephraim-lessing
+  #   name: Gotthold Ephraim Lessing
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Gotthold+Ephraim+Lessing
+  #       original_language: de
+
+  # - id: johann-wolfgang-von-goethe
+  #   name: Johann Wolfgang von Goethe
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Johann+Wolfgang+von+Goethe
+  #       original_language: de
+
+  # - id: friedrich-schiller
+  #   name: Friedrich Schiller
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Friedrich+Schiller
+  #       original_language: de
+
+
+  # --- Nineteenth-century European literature ---
+
+  # - id: william-wordsworth
+  #   name: William Wordsworth
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=William+Wordsworth
+  #       language: en
+  #       original_language: en
+
+  # - id: samuel-taylor-coleridge
+  #   name: Samuel Taylor Coleridge
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Samuel+Taylor+Coleridge
+  #       language: en
+  #       original_language: en
+
+  # - id: lord-byron
+  #   name: Lord Byron
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Lord+Byron
+  #       language: en
+  #       original_language: en
+
+  # - id: percy-bysshe-shelley
+  #   name: Percy Bysshe Shelley
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Percy+Bysshe+Shelley
+  #       language: en
+  #       original_language: en
+
+  # - id: john-keats
+  #   name: John Keats
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=John+Keats
+  #       language: en
+  #       original_language: en
+
+  # - id: walter-scott
+  #   name: Walter Scott
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Walter+Scott
+  #       language: en
+  #       original_language: en
+
+  # - id: jane-austen
+  #   name: Jane Austen
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jane+Austen
+  #       language: en
+  #       original_language: en
+
+  # - id: charlotte-bronte
+  #   name: Charlotte Bronte
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Charlotte+Bronte
+  #       language: en
+  #       original_language: en
+
+  # - id: emily-bronte
+  #   name: Emily Bronte
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Emily+Bronte
+  #       language: en
+  #       original_language: en
+
+  # - id: charles-dickens
+  #   name: Charles Dickens
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Charles+Dickens
+  #       language: en
+  #       original_language: en
+
+  # - id: william-makepeace-thackeray
+  #   name: William Makepeace Thackeray
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=William+Makepeace+Thackeray
+  #       language: en
+  #       original_language: en
+
+  # - id: george-eliot
+  #   name: George Eliot
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=George+Eliot
+  #       language: en
+  #       original_language: en
+
+  # - id: thomas-hardy
+  #   name: Thomas Hardy
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Thomas+Hardy
+  #       language: en
+  #       original_language: en
+
+  # - id: victor-hugo
+  #   name: Victor Hugo
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Victor+Hugo
+  #       original_language: fr
+
+  # - id: stendhal
+  #   name: Stendhal
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Stendhal
+  #       original_language: fr
+
+  # - id: honore-de-balzac
+  #   name: Honore de Balzac
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Honore+de+Balzac
+  #       original_language: fr
+
+  # - id: gustave-flaubert
+  #   name: Gustave Flaubert
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Gustave+Flaubert
+  #       original_language: fr
+
+  # - id: emile-zola
+  #   name: Emile Zola
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Emile+Zola
+  #       original_language: fr
+
+  # - id: guy-de-maupassant
+  #   name: Guy de Maupassant
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Guy+de+Maupassant
+  #       original_language: fr
+
+  # - id: charles-baudelaire
+  #   name: Charles Baudelaire
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Charles+Baudelaire
+  #       original_language: fr
+
+  # - id: paul-verlaine
+  #   name: Paul Verlaine
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Paul+Verlaine
+  #       original_language: fr
+
+  # - id: arthur-rimbaud
+  #   name: Arthur Rimbaud
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Arthur+Rimbaud
+  #       original_language: fr
+
+  # - id: henrik-ibsen
+  #   name: Henrik Ibsen
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Henrik+Ibsen
+  #       original_language: no
+
+  # - id: august-strindberg
+  #   name: August Strindberg
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=August+Strindberg
+  #       original_language: sv
+
+  # - id: knut-hamsun
+  #   name: Knut Hamsun
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Knut+Hamsun
+  #       original_language: no
+
+
+  # --- American literature — nineteenth and early twentieth centuries ---
+
+  # - id: washington-irving
+  #   name: Washington Irving
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Washington+Irving
+  #       language: en
+  #       original_language: en
+
+  # - id: edgar-allan-poe
+  #   name: Edgar Allan Poe
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Edgar+Allan+Poe
+  #       language: en
+  #       original_language: en
+
+  # - id: nathaniel-hawthorne
+  #   name: Nathaniel Hawthorne
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Nathaniel+Hawthorne
+  #       language: en
+  #       original_language: en
+
+  # - id: herman-melville
+  #   name: Herman Melville
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Herman+Melville
+  #       language: en
+  #       original_language: en
+
+  # - id: walt-whitman
+  #   name: Walt Whitman
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Walt+Whitman
+  #       language: en
+  #       original_language: en
+
+  # - id: emily-dickinson
+  #   name: Emily Dickinson
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Emily+Dickinson
+  #       language: en
+  #       original_language: en
+
+  # - id: mark-twain
+  #   name: Mark Twain
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Mark+Twain
+  #       language: en
+  #       original_language: en
+
+  # - id: henry-james
+  #   name: Henry James
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Henry+James
+  #       language: en
+  #       original_language: en
+
+  # - id: jack-london
+  #   name: Jack London
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jack+London
+  #       language: en
+  #       original_language: en
+
+  # - id: theodore-dreiser
+  #   name: Theodore Dreiser
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Theodore+Dreiser
+  #       language: en
+  #       original_language: en
+
+
+  # --- Modernism and twentieth-century world literature ---
+
+  # - id: joseph-conrad
+  #   name: Joseph Conrad
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Joseph+Conrad
+  #       language: en
+  #       original_language: en
+
+  # - id: marcel-proust
+  #   name: Marcel Proust
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Marcel+Proust
+  #       original_language: fr
+
+  # - id: james-joyce
+  #   name: James Joyce
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=James+Joyce
+  #       language: en
+  #       original_language: en
+
+  # - id: virginia-woolf
+  #   name: Virginia Woolf
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Virginia+Woolf
+  #       language: en
+  #       original_language: en
+
+  # - id: d-h-lawrence
+  #   name: D. H. Lawrence
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=D++H++Lawrence
+  #       language: en
+  #       original_language: en
+
+  # - id: w-b-yeats
+  #   name: W. B. Yeats
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=W++B++Yeats
+  #       language: en
+  #       original_language: en
+
+  # - id: t-s-eliot
+  #   name: T. S. Eliot
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=T++S++Eliot
+  #       language: en
+  #       original_language: en
+
+  # - id: franz-kafka
+  #   name: Franz Kafka
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Franz+Kafka
+  #       original_language: de
+
+  # - id: thomas-mann
+  #   name: Thomas Mann
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Thomas+Mann
+  #       original_language: de
+
+  # - id: hermann-hesse
+  #   name: Hermann Hesse
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Hermann+Hesse
+  #       original_language: de
+
+  # - id: rainer-maria-rilke
+  #   name: Rainer Maria Rilke
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Rainer+Maria+Rilke
+  #       original_language: de
+
+  # - id: bertolt-brecht
+  #   name: Bertolt Brecht
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Bertolt+Brecht
+  #       original_language: de
+
+  # - id: luigi-pirandello
+  #   name: Luigi Pirandello
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Luigi+Pirandello
+  #       original_language: it
+
+  # - id: miguel-de-unamuno
+  #   name: Miguel de Unamuno
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Miguel+de+Unamuno
+  #       original_language: es
+
+  # - id: federico-garcia-lorca
+  #   name: Federico Garcia Lorca
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Federico+Garcia+Lorca
+  #       original_language: es
+
+  # - id: ernest-hemingway
+  #   name: Ernest Hemingway
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Ernest+Hemingway
+  #       language: en
+  #       original_language: en
+
+  # - id: f-scott-fitzgerald
+  #   name: F. Scott Fitzgerald
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=F++Scott+Fitzgerald
+  #       language: en
+  #       original_language: en
+
+  # - id: william-faulkner
+  #   name: William Faulkner
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=William+Faulkner
+  #       language: en
+  #       original_language: en
+
+  # - id: john-steinbeck
+  #   name: John Steinbeck
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=John+Steinbeck
+  #       language: en
+  #       original_language: en
+
+  # - id: aldous-huxley
+  #   name: Aldous Huxley
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Aldous+Huxley
+  #       language: en
+  #       original_language: en
+
+  # - id: george-orwell
+  #   name: George Orwell
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=George+Orwell
+  #       language: en
+  #       original_language: en
+
+  # - id: jean-paul-sartre
+  #   name: Jean-Paul Sartre
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jean-Paul+Sartre
+  #       original_language: fr
+
+  # - id: albert-camus
+  #   name: Albert Camus
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Albert+Camus
+  #       original_language: fr
+
+  # - id: samuel-beckett
+  #   name: Samuel Beckett
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Samuel+Beckett
+  #       language: en
+  #       original_language: en
+
+  # - id: jorge-luis-borges
+  #   name: Jorge Luis Borges
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Jorge+Luis+Borges
+  #       original_language: es
+
+  # - id: gabriel-garcia-marquez
+  #   name: Gabriel Garcia Marquez
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Gabriel+Garcia+Marquez
+  #       original_language: es
+
+  # - id: julio-cortazar
+  #   name: Julio Cortazar
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Julio+Cortazar
+  #       original_language: es
+
+  # - id: pablo-neruda
+  #   name: Pablo Neruda
+  #   sources:
+  #     - family: project_gutenberg
+  #       url: https://www.gutenberg.org/ebooks/authors/search/?query=Pablo+Neruda
+  #       original_language: es

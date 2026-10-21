@@ -1,0 +1,102 @@
+# Sibyl corpus builder
+
+`corpus-builder/` is Sibyl's local build-time Python application. It turns reviewed literary sources into deterministic canonical input, builds the free-form retrieval corpus, supports external large-LLM curation, validates build-time machine translations of curated foreign-language passages, and assembles them into the current format-v4 runtime corpus. The normal runtime build discovers all locally prepared source sets, so authors can be added incrementally without maintaining a separate aggregate prepared directory. It is never part of runtime question answering.
+
+## Pipeline
+
+```mermaid
+flowchart TD
+    U[External sources] --> S[Source ingestion]
+    S --> P[Prepared canonical sources]
+    P --> B[Automatic build]
+    P --> C[Large-LLM curation]
+    C --> M[Validated curated metadata]
+    M --> T[Optional large-LLM translation]
+    M --> B
+    T --> B
+    B --> R[Format-v4 runtime corpus artifacts]
+```
+
+Importing the package performs no downloads, model loading, or generated-data writes. Network/model work happens only through explicit commands.
+
+For the complete start/continue sequence, use [`../docs/WORKFLOW.md`](../docs/WORKFLOW.md). For command syntax and optional flags, use [`../docs/USAGE.md`](../docs/USAGE.md).
+
+## Package map
+
+```text
+sibyl_corpus_builder/
+  __init__.py
+  cli.py
+  sources/   # external sources -> prepared canonical sources
+  build/     # splitter/embeddings -> current runtime corpus
+  curation/     # canonical texts <-> large LLM -> validated locator/hash metadata
+  translation/  # curated passages <-> large LLM -> validated local machine translations
+  workflow/     # explicit per-work build preparation progress inspection
+```
+
+`cli.py` is a thin composition root. Feature callers use each package's public API; implementation-private mechanics stay under that feature's `_internal/` package. Shared feature-neutral contracts live in [`../corpus-core/`](../corpus-core/).
+
+See [`IMPLEMENTATION.md`](IMPLEMENTATION.md) for concrete modules and call paths.
+
+## Setup
+
+From `corpus-builder/`:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ../corpus-core -e '.[dev]'
+```
+
+The optional semantic embedding environment uses the `ml` extra and currently supports Python 3.11/3.12. Reproducible ML and Flutter-runtime setup is documented in [`../docs/INSTALLATION.md`](../docs/INSTALLATION.md).
+
+## Main command groups
+
+| Goal | Commands | Owning docs |
+|---|---|---|
+| Refresh work candidates from enabled academic authors | `discover-works` | [`WORKFLOW`](../docs/WORKFLOW.md), [`SOURCES`](../docs/SOURCES.md) |
+| Discover/acquire/prepare sources (including language-aware Lib.ru direct TXT catalogs) | `discover`, `acquire`, `prepare-selection`, `fetch`, `import-file`, `prepare` | [`WORKFLOW`](../docs/WORKFLOW.md), [`SOURCES`](../docs/SOURCES.md) |
+| Persist reviewed source metadata | `register` | [`SOURCES`](../docs/SOURCES.md) |
+| Curate guided-question passages | `export-curation-bundle`, `import-curation`, `validate-curation` | [`WORKFLOW`](../docs/WORKFLOW.md) |
+| Translate curated foreign passages | `export-translation-bundle`, `import-translation`, `validate-translation` | [`WORKFLOW`](../docs/WORKFLOW.md) |
+| Inspect local per-work preparation status | `advance --state-root ...` | [`WORKFLOW`](../docs/WORKFLOW.md) |
+| Build the current local runtime corpus | `build-available`, `build`, `validate` | [`WORKFLOW`](../docs/WORKFLOW.md) |
+| Prepare an ONNX query model bundle for future Flutter native integration | `download-runtime-model` | [`INSTALLATION`](../docs/INSTALLATION.md), [`USAGE`](../docs/USAGE.md) |
+
+Run `sibyl-corpus --help` for the available command surface. [`../docs/USAGE.md`](../docs/USAGE.md) documents command arguments and development-only overrides without duplicating the end-to-end workflow.
+
+## Incremental author workflow
+
+Each author remains independently prepared under `data/work/<name>/` and may have an independent validated curation file under `../corpus-curation/curated/`. The normal repository workflow is:
+
+```bash
+make build-runtime-corpus
+```
+
+That target calls `build-available`, discovers every prepared child with `manifest.json`, selects curated metadata fully backed by those local text versions, includes compatible validated machine translations when present, reuses compatible embedding caches, and atomically replaces the single runtime output at `data/output`. Explicit repeatable `build --source ... --curation ... --translation ...` remains available for focused/debug assembly and future filtering.
+
+## Important local-data boundary
+
+Everything under `corpus-builder/data/` is local/generated: downloaded source artifacts, canonical prepared texts, acquisition reports, curation bundles, embedding caches, runtime models, and built corpora. It is ignored by Git and excluded from shareable repository archives.
+
+Committed source/provenance metadata belongs in `corpus-sources/`; committed guided-question and locator/hash curation metadata belongs in `corpus-curation/`.
+
+## Validation
+
+From the repository root:
+
+```bash
+make test-corpus-builder
+make check
+```
+
+Default tests are deterministic and do not download source texts or models.
+
+## More detail
+
+- [`IMPLEMENTATION.md`](IMPLEMENTATION.md) — builder feature/package implementation.
+- [`AGENTS.md`](AGENTS.md) — protected builder change rules.
+- [`../docs/WORKFLOW.md`](../docs/WORKFLOW.md) — canonical end-to-end operational sequence.
+- [`../docs/USAGE.md`](../docs/USAGE.md) — command/option reference.
+- [`../docs/SOURCES.md`](../docs/SOURCES.md) — provenance, rights, and normalization policy.
+- [`../docs/CONFIGURATION.md`](../docs/CONFIGURATION.md) — build configuration ownership.
